@@ -1,0 +1,13 @@
+header nav a:first-child{color: #ff7c00;}
+main {
+    /* margin: 0 155px; */
+}
+.guide_line {
+    padding: 30px 0 30px 155px; background: black; 
+}
+.guide_line p {color: #fff;}
+.guide_line p a {color: #fff;}
+.gnb {
+    margin: 0 155px; display: flex; justify-content: space-between; padding: 50px 0;
+}
+.gnb a {}

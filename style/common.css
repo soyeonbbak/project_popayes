@@ -1,0 +1,17 @@
+header {
+    display: flex; justify-content: space-between; margin: 0 auto;
+    padding: 30px 30px; white-space: nowrap;
+}
+header .left{}
+header .left h1{}
+header .left h1 a{}
+header .left h1 a img{}
+header nav{}
+header nav a{margin-right: 30px; font-weight: 600; font-size: 1.953em;}
+header nav a:hover{color: #ff7c00; }
+header .right{}
+header .right .search{}
+header .right .search #search_txt{}
+header .right .search #search_btn{}
+header .right .search #search_btn img{}
+/* header line end */
