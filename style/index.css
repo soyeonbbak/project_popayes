@@ -1,0 +1,44 @@
+header {
+    display: flex; justify-content: space-between; margin: 0 auto;
+    padding: 30px 30px;
+
+}
+header .left{}
+header .left h1{}
+header .left h1 a{}
+header .left h1 a img{}
+header nav{}
+header nav a{margin-right: 30px; font-weight: 600; font-size: 1.953em;}
+header nav a:hover{color: #fff; filter: drop-shadow(1px 1px 1px black)}
+header .right{}
+header .right .search{}
+header .right .search #search_txt{}
+header .right .search #search_btn{}
+header .right .search #search_btn img{}
+/* header line end */
+/* main */
+main {}
+main iframe {width: 1146px; margin: 0 auto; ;}
+/* main event bn*/
+main .event {}
+main .event h1{}
+main .event .event_bn{text-align: center;}
+main .event .event_bn #event_bn1{}
+main .event .event_bn #event_bn1 {}
+main .event .event_bn #event_bn1 img{}
+main .event .event_bn #event_bn1 .event_txt{}
+main .event .event_bn #event_bn1 .event_txt em{}
+main .event .event_bn #event_bn1 .event_txt span{}
+main .event .event_bn #event_bn2{}
+main .event .event_bn #event_bn2 img{}
+main .event .event_bn #event_bn2 .event_txt{}
+main .event .event_bn #event_bn2 .event_txt em{}
+main .event .event_bn #event_bn2 .event_txt span{}
+main .event .event_bn #event_bn3{}
+main .event .event_bn #event_bn3 img{}
+main .event .event_bn #event_bn3 .event_txt{}
+main .event .event_bn #event_bn3 .event_txt em{}
+main .event .event_bn #event_bn3 .event_txt span{}
+/* 이벤트 배너 공용 속성 */
+main .event .event_bn a .event_txt{display: flex; flex-flow: column; background: gray; }
+main .event .event_bn a .event_txt em{font-weight: 600; font-size: 1.563em;}
