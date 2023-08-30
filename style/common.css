@@ -10,9 +10,4 @@ header .left h1 a img{}
 header nav{}
 header nav a{margin-right: 30px; font-weight: 600; font-size: 1.953em;}
 header nav a:hover{color: #ff7c00; }
-header .right{}
-header .right .search{}
-header .right .search #search_txt{}
-header .right .search #search_btn{}
-header .right .search #search_btn img{}
 /* header line end */
