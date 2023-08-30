@@ -1,6 +1,7 @@
 header nav a:first-child{color: #ff7c00;}
 main {
-    /* margin: 0 155px; */
+    /* margin: 0 155px; */ white-space: nowrap;
+    
 }
 .guide_line {
     padding: 30px 0 30px 155px; background: black; 
@@ -9,5 +10,35 @@ main {
 .guide_line p a {color: #fff;}
 .gnb {
     margin: 0 155px; display: flex; justify-content: space-between; padding: 50px 0;
+    position: fixed; text-align: center;
 }
-.gnb a {}
+/* gnb 공용 */
+.gnb > li {}
+.gnb > li > a {}
+.gnb > li > ul {background: gold;}
+.gnb > li > ul >li  {background: pink;}
+.gnb > li > ul >li > img {background: red;}
+.gnb .best_menu > a{}
+.gnb > ul > li > ul{
+    width: 330px;
+}
+.gnb .best_menu .best_box li{}
+.gnb li { font-size: 1.333em;}
+/* 추천메뉴 */
+.gnb .best_menu {display: /* flex */none; }
+.gnb .best_menu a {}
+.gnb .best_menu .best_box {}
+.gnb .best_menu .best_box li {}
+.gnb .best_menu .best_box li img {}
+.gnb .best_menu .best_sandwichbox {}
+.gnb .best_menu .best_bigbox {}
+.gnb .best_menu .best_lovebox {}
+
+/* 치킨 */
+.gnb .chicken {display: flex; justify-content: space-between}
+.gnb .chicken a {}
+.gnb .chicken .chicken_box {width: ;}
+/* 버거 */
+/* 사이드 */
+/* 음료 */
+/* 소스 */

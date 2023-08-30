@@ -28,8 +28,10 @@ main .event .event_bn #event_bn3 .event_txt em{}
 main .event .event_bn #event_bn3 .event_txt span{}
 /* 이벤트 배너 공용 속성 */
 main .event .event_bn a {
-    display: block; margin-bottom: 50px;
+    display: block;  width: 914px; margin:0 auto 50px;
 }
-main .event .event_bn a .event_txt{display: flex; flex-flow: column; background: #ddd; }
+main .event .event_bn a .event_txt{
+    display: flex; flex-flow: column nowrap; background: #ddd; width: 914px; 
+}
 main .event .event_bn a .event_txt em{font-weight: 600; font-size: 1.563em;  padding: 20px 0;}
 main .event .event_bn a .event_txt span{padding-bottom: 20px;}

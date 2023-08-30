@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>메뉴소개</title>
     <link rel="stylesheet" href="./style/reset.css">
@@ -12,11 +14,11 @@
     <!-- header start. ( php 전환 예정 )-->
     <header>
         <div class="left">
-            <h1><a href="#"><img src="./img/logo.png" alt="로고"></a></h1>
+            <h1><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h1>
         </div>
         <nav>
-            <a href="#">메뉴</a>
-            <a href="#">매장위치</a>
+            <a href="./product.html">메뉴</a>
+            <a href="./map.html">매장위치</a>
             <a href="#">임차문의</a>
             <a href="#">채용</a>
             <a href="#">파파이스</a>
@@ -33,39 +35,60 @@
     </header>
     <!-- header end. ( php 전환 예정 ) -->
     <main>
+
         <div class="guide_line">
             <p><a href="./index.html">HOME</a> > <a href="./product.html">메뉴소개</a></p>
         </div>
-        <nav class="gnb">
-            <a href="#">
-                <img src="#" alt="">
-                <span>모든 메뉴</span>
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-                <span>추천 메뉴</span>
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-                <span>치킨</span>
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-                <span>버거</span>
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-                <span>사이드</span>
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-                <span>음료</span>
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-                <span>소스</span>
-            </a>
-        </nav>
+        <ul class="gnb">
+            <li class="best_menu"><a href="#">추천메뉴</a>
+                <ul id="best_sandwichbox" class="best_box">
+                    <li><img src="./img/menu/best/box_chicksandwich.jpg" alt=""></li>
+                    <li>치킨 샌드위치 박스</li>
+                </ul>
+                <ul id="best_bigbox" class="best_box">
+                    <li><img src="./img/menu/best/box_chickenbig.jpg" alt=""></li>
+                    <li>치킨 빅 박스</li>
+                </ul>
+                <ul id="best_lovebox" class="best_box">
+                    <li><img src="./img/menu/best/box_lovethat.jpg" alt=""></li>
+                    <li>러브 댓 박스</li>
+                </ul>
+            </li>
+            <li class="chicken"><a href="#">치킨</a>
+                <ul class="chicken_box" id="chick_classic">
+                    <li><img src="./img/menu/chicken/classic.jpg" alt=""></li>
+                    <li>클래식 시그니처 치킨</li>
+                </ul>
+                <ul class="chicken_box" id="chick_spicy">
+                    <li><img src="./img/menu/chicken/spicy.jpg" alt=""></li>
+                    <li>스파이스 시그니처 치킨</li>
+                </ul>
+                <ul class="chicken_box" id="chick_leg">
+                    <li><img src="./img/menu/chicken/leg.jpg" alt=""></li>
+                    <li>레그 순살 치킨</li>
+                </ul>
+                <ul class="chicken_box" id="chick_cajun">
+                    <li><img src="./img/menu/chicken/cajun.jpg" alt=""></li>
+                    <li>케이준 스파이시 윙</li>
+                </ul>
+                <ul class="chicken_box" id="chick_set">
+                    <li><img src="./img/menu/chicken/set.jpg" alt=""></li>
+                    <li>치킨세트</li>
+                </ul>
+                <ul class="chicken_box" id="chick_butter">
+                    <li><img src="./img/menu/chicken/butter.jpg" alt=""></li>
+                    <li>버터밀크 너겟</li>
+                </ul>
+            </li>
+            <li><a href="#">버거</a></li>
+            <li><a href="#">사이드</a></li>
+            <li><a href="#">음료</a></li>
+            <li><a href="#">소스</a></li>
+        </ul>
     </main>
+    <script>
+        const gnb = document.querySelector('.gnb')
+        // const sub = document.querySelectorAll(.)
+    </script>
 </body>
 </html>
