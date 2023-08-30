@@ -1,6 +1,7 @@
 header {
     display: flex; justify-content: space-between; margin: 0 auto;
     padding: 30px 30px; white-space: nowrap;
+    border-top:5px solid #ff7c00 ;
 }
 header .left{}
 header .left h1{}
