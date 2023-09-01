@@ -8,6 +8,7 @@
     <title>파파이스</title>
     <!-- slide wiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- style sheet -->
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
@@ -37,7 +38,7 @@
         </nav>
     </header>
     <main>
-        <div class="swiper main_bn">
+        <div class="swiper" id="main_bn">
             <div class="swiper-wrapper">
                 <div class="swiper-slide main_bn1">
                     <a href="#"><img src="./img/main_bn1.jpg" alt=""></a>
@@ -48,19 +49,39 @@
             </div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
         </div>
-        <section class="event">
-        </section>
         <section class="new_menu">
-            <div id="ade">
-                <a href="#" id="sub_bn1">
-                    <img src="./img/sub_bn1.jpg" alt="">
-
-                </a>
+            <h1>POPEYES NEW MENU</h1>
+            <div id="new_menu_box">
+                <div id="summer_ade" class="nmb">
+                    <a href="#" id="sub_bn1">
+                        <img src="./img/sub_bn1.png" alt="">
+                        <div class="sub_txt">
+                            <p>상큼하게 톡! 쏘는 청량한 여름의 맛!</p>
+                            <p><em>여름 인기 음료 썸머 에이드 3종</em></p>
+                        </div>
+                    </a>
+                </div>
+                <div id="king_latte" class="nmb">
+                    <a href="#" id="sub_bn2">
+                        <img src="./img/sub_bn2.png" alt="">
+                        <div class="sub_txt">
+                            <p>상큼하게 톡! 쏘는 청량한 여름의 맛!</p>
+                            <p><em>여름 인기 음료 썸머 에이드 3종</em></p>
+                        </div>
+                    </a>
+                </div>
+                <div id="sandwich_box" class="nmb">
+                    <a href="#" id="sub_bn3">
+                        <img src="./img/sub_bn3.png" alt="">
+                        <div class="sub_txt">
+                            <p>상큼하게 톡! 쏘는 청량한 여름의 맛!</p>
+                            <p><em>여름 인기 음료 썸머 에이드 3종</em></p>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div id="king_latte"></div>
-            <div id="sandwich"></div>
-            <div id="sandwich_box"></div>
         </section>
     </main>
     <footer>
@@ -80,5 +101,19 @@
         </div>
         <p id="copyright">COPYRIGHT © 2023 Popeyes Louisiana Kitchen, Inc. Used under license. All rights reserved.</p>
     </footer>
+    <script>
+        // <!-- slide script -->
+        const bnSlide = new Swiper("#main_bn",{
+            slidesPerview:1,
+            loop:true,
+            autoplay:{delay:1000},
+            speed:1000,
+            scrollbar:{el:'#main_bn .swiper-scrollvar'},
+            navigation:{
+                nextEl:'#main_bn .swiper-button-next',
+                prevEl:'#main_bn .swiper-button-prev',
+            }
+        })
+    </script>
 </body>
 </html>

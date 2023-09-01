@@ -1,5 +1,36 @@
 /* main */
 main {
-    padding-top: 170px; white-space: nowrap;
+    padding-top: 195px; white-space: nowrap;
 }
 main .swiper{margin: 0 auto;}
+/* 메인 배너 슬라이드 */
+main .swiper .swiper-wrapper {z-index: 1;}
+main .swiper .swiper-wrapper .swiper-slide{}
+main .swiper .swiper-wrapper .swiper-slide a{}
+main .swiper .swiper-wrapper .swiper-slide a img{}
+main .swiper .swiper-button-prev::after,
+main .swiper .swiper-button-next::after{ display: none;}
+main .swiper .swiper-button-prev {
+    background: url(../img/prev.png) no-repeat;
+    width: 32px; margin-left: 348px;
+}
+main .swiper .swiper-button-next {
+    background: url(../img/Next.png) no-repeat;
+    width: 32px; margin-right: 348px;
+}
+/* 신메뉴 서브배너 */
+main .new_menu {
+    width: 1200px; margin: 0 auto;
+}
+main .new_menu h1{font-size: 1.953em; font-weight: 600;}
+main .new_menu #new_menu_box {
+    display: flex; justify-content: space-between;
+}
+main .new_menu #new_menu_box .nmb {
+        filter: drop-shadow(2px 3px 3px black);
+    width: 389px; height: 420px;}
+main .new_menu #new_menu_box .nmb a {}
+/* 서브배너 모서리 */
+main .new_menu #new_menu_box .nmb a img {
+    display: block; border-radius: 20px 20px 0 0;
+}
