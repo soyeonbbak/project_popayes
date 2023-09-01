@@ -1,13 +1,29 @@
 header {
-    display: flex; justify-content: space-between; margin: 0 auto;
-    padding: 30px 30px; white-space: nowrap;
-    border-top:5px solid #ff7c00 ;
+    margin: 0 auto; position: fixed;
+    padding: 30px 0; white-space: nowrap; width: 100%;
+    border-top:5px solid #ff7c00 ; background: #fff;
+    z-index: 1;
 }
-header .left{}
-header .left h1{}
-header .left h1 a{}
-header .left h1 a img{}
-header nav{}
-header nav a{margin-right: 30px; font-weight: 600; font-size: 1.953em;}
+header .h_top{display: flex; justify-content: center; margin-bottom: 40px;}
+header .h_top form{margin-left: 380px;}
+header .h_top form #lang{
+    appearance:none; width: 120px; height: 50px;
+    border: none; background:url(../img/lang_logo.png) no-repeat;
+    background-position: right;
+}
+header .h_top h1{margin-left: 380px;}
+header .h_top h1 a{}
+header .h_top h1 a img{}
+header nav{text-align: center; margin-bottom: 20px;}
+header nav a{margin-right: 100px; font-weight: 600; font-size: 1.25em;}
 header nav a:hover{color: #ff7c00; }
 /* header line end */
+/* footer */
+footer {
+    background: #ff7c00; color: white; text-align: center;
+    
+}
+footer #f_top a {color: white; margin-right: 88px;}
+footer #f_top a:hover {font-weight: 600;}
+footer address {}
+footer #f_sns {}

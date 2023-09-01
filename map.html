@@ -11,28 +11,28 @@
     <link rel="stylesheet" href="./style/map.css">
 </head>
 <body>
-        <!-- header start. ( php 전환 예정 )-->
-        <header>
-            <div class="left">
-                <h1><a href="#"><img src="./img/logo.png" alt="로고"></a></h1>
-            </div>
-            <nav>
-                <a href="./product.html">메뉴</a>
-                <a href="./map.html" style="color:#ff7c00 ;">매장위치</a>
-                <a href="#">임차문의</a>
-                <a href="#">채용</a>
-                <a href="#">파파이스</a>
-            </nav>
-            <div class="right">
-                <form action="#" method="get" class="search">
-                    <fieldset>
-                        <legend class="skip">검색창</legend>
-                        <input type="search" name="search" id="search_txt" placeholder="매장 또는 제품 검색">
-                        <button type="button" id="search_btn"><img src="./img/search.png" alt=""></button>
-                    </fieldset>
-                </form>
-            </div>
-        </header>
-        <!-- header end. ( php 전환 예정 ) -->
+    <!-- header start. ( php 전환 예정 )-->
+    <header>
+        <div class="h_top">
+            <h1><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h1>
+            <form action="get">
+                <select name="lang" id="lang">
+                    <option value='' selected>언어(lang)</option>
+                    <option value="">한국어</option>
+                    <option value="">English</option>
+                    <option value="">china</option>
+                    <option value="">japan</option>
+                </select>
+            </form>
+        </div>
+        <nav>
+            <a href="./product.html">메뉴</a>
+            <a href="./map.html">매장위치</a>
+            <a href="#">임차문의</a>
+            <a href="#">채용</a>
+            <a href="#">파파이스</a>
+        </nav>
+    </header>
+    <!-- header end. ( php 전환 예정 ) -->
 </body>
 </html>
